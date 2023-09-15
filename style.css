@@ -65,6 +65,7 @@ h6 {
 
 body {
   font-family: "Bai Jamjuree", sans-serif;
+  background: url(./images/bg-header-mobile.png) no-repeat;
   font-size: 1.125rem;
   text-align: center;
 }
@@ -270,6 +271,9 @@ li:hover {
 }
 
 @media screen and (min-width: 1440px) {
+  body{
+    background: url(./images/bg-header-desktop.png) no-repeat;
+  }
   .container {
     margin: 0;
   }
@@ -405,6 +409,9 @@ li:hover {
 }
 
 @media screen and (min-width: 425px) and (max-width: 1023px) {
+  body{
+    background: url(./images/bg-header-desktop.png) no-repeat;
+  }
   .container {
     margin: 11.25rem 2.8125rem;
   }
@@ -427,6 +434,9 @@ li:hover {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1339px) {
+  body{
+    background: url(./images/bg-header-desktop.png) no-repeat;
+  }
   .container {
     margin: 15rem 4rem;
   }
